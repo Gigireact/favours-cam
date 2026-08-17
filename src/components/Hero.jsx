@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-transparent to-transparent" />
 
       {/* Frame corner marks */}
-      <div className="absolute inset-6 sm:inset-10 pointer-events-none z-20 hidden sm:block">
+      <div className="absolute inset-6 sm:inset-10 pointer-events-none z-20">
         {[
           "top-0 left-0 border-t border-l",
           "top-0 right-0 border-t border-r",
@@ -23,7 +23,7 @@ export default function Hero() {
         ].map((pos, i) => (
           <span
             key={i}
-            className={`absolute  h-5 w-5 ${pos} border-bone-dim/40`}
+            className={`absolute  h-5 w-5 ${pos} border-bone-dim/150`}
           />
         ))}
       </div>

@@ -16,10 +16,10 @@ import podcast from "../assets/videos/Podcast-video.mp4"
 export const NAME = "favour's cam";
 
 export const SOCIAL_LINKS = [
-  { label: "Instagram", href: "https://instagram.com/" },
-  { label: "Tiktok", href: "https://tiktok.com/" },
-  { label: "YouTube", href: "https://youtube.com/" },
-  { label: "X", href: "https://twitter.com/" },
+  { label: "Instagram", href: "https://www.instagram.com/favours_cam?igsh=MTJmaXNvMTV0b21pMA==" },
+  { label: "Tiktok", href: "https://www.tiktok.com/@favourudofiah?_r=1&_t=ZS-98dMPvrv4oz" },
+  { label: "YouTube", href: "https://youtube.com/@favourudofiah?si=NcCaliLtZq47NIUP" },
+  { label: "X", href: "https://x.com/Imabasi___" },
 ];
 
 export const EMAIL = "favourudofiah@gmail.com";
