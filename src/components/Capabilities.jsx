@@ -83,8 +83,8 @@ export default function Capabilities() {
         </h2>
 
         <p className="mt-5 max-w-md font-serif italic text-bone-dim text-lg">
-          Read like a shot list — hover a line to see what it covers.
-        </p>
+          Every frame has a purpose.From concept to final cut, these are the tools and creative disciplines behind the work.
+        </p> 
       </div>
 
       {/* Capability rows */}

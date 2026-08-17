@@ -93,37 +93,37 @@ function IMAGES_KEY(key) {
 
 export const CAPABILITIES = [
   {
-    tag: "DEV",
+    tag: "1",
     title: "Directing & Concept",
     desc: "Treatment decks, shot lists and creative direction from a one-line brief to a locked script.",
     tools: "Treatments · Shot Lists · Storyboards",
   },
   {
-    tag: "CAM",
+    tag: "2",
     title: "Cinematography",
     desc: "Handheld, gimbal and locked-off work across commercial, documentary and event coverage.",
     tools: "RED · Sony Cinema Line · Prime Lenses",
   },
   {
-    tag: "EDT",
+    tag: "3",
     title: "Editing",
     desc: "Narrative-first cutting for brand films, docs and social — pace built around the story, not the deadline.",
     tools: "Premiere Pro · Avid · Frame.io",
   },
   {
-    tag: "GRD",
+    tag: "4",
     title: "Colour Grading",
     desc: "Look development and finishing that holds up across a whole campaign, not just one hero frame.",
     tools: "DaVinci Resolve · LUT Design",
   },
   {
-    tag: "GEN",
+    tag: "5",
     title: "AI Video & Generation",
     desc: "AI-generated plates and assets integrated into live-action timelines — used as a tool, not a shortcut.",
     tools: "Runway · Midjourney · Compositing",
   },
   {
-    tag: "SOC",
+    tag: "6",
     title: "Social & Content Systems",
     desc: "Cut-downs and native-format edits built for how each platform is actually watched.",
     tools: "Vertical Edits · Captioning · Reels",
@@ -176,12 +176,11 @@ export const PODCAST_MEDIA = [
 
 
 export const CLIENTS = [
-  "AURELIA SKIN",
-  "NORTHBOUND",
-  "STUDIO MERIDIAN",
-  "FIELDNOTE",
-  "LUMEN & CO",
-  "GOOD HOUR",
-  "PALISADE",
-  "SOLSTICE LABS",
+  "EVENT COVERAGE",
+  "VIDEO EDITING",
+  "VIDEO PRODUCTION",
+  "COLOUR GRADING",
+  "CREATIVE SCRIPTING",
+  "COMMERCIAL & BRAND CAMPAIGNS",
+  "VISUAL STORYTELLING",
 ];

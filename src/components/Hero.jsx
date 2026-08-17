@@ -31,7 +31,7 @@ export default function Hero() {
       {/* Eyebrow */}
       <div className="absolute top-24 text-black sm:top-28 left-5 sm:left-10 z-20 flex items-center gap-3 font-mono text-[15px] tracking-[0.25em]">
         <span>●</span>
-        ROLL 001 · FILMMAKER / EDITOR / VISUAL STORYTELLER
+        ROLL 01 
       </div>
 
       {/* Headline */}

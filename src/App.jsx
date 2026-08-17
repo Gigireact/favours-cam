@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FilmStrip from "./components/FilmStrip";
 
+
 export default function App() {
   useEffect(() => {
     const lenis = new Lenis({
