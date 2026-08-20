@@ -9,7 +9,13 @@ import portp4 from "../assets/images/portp4.jpeg";
 import portp5 from "../assets/images/portp5.jpeg";
 import portp7 from "../assets/images/portp7.jpeg";
 import portp9 from "../assets/images/portp9.jpeg";
-import pic from "../assets/images/pic9.jfif";
+import pic1 from "../assets/images/pic1.jfif";
+import pic2 from "../assets/images/pic2.jfif";
+import pic3 from "../assets/images/pic3.jfif";
+import pic6 from "../assets/images/pic6.jfif";
+import pic7 from "../assets/images/pic7.jfif";
+import pic8 from "../assets/images/pic8.jfif";
+import pic9 from "../assets/images/pic9.jfif";
 import podcast from "../assets/videos/Podcast-video.mp4"
 
 
@@ -128,6 +134,30 @@ export const CAPABILITIES = [
     desc: "Cut-downs and native-format edits built for how each platform is actually watched.",
     tools: "Vertical Edits · Captioning · Reels",
   },
+];
+
+
+export const SPLASH_IMAGES = [
+  pic1,
+  pic2,
+  pic3,
+  pic6,
+  pic7,
+  pic8,
+  pic9,
+  portp4,
+];
+
+
+export const CARD_CONFIGS = [
+  { x: "-80vw", y: "-60vh", rotateX: 45,  rotateY: -30, rotateZ: -18, scale: 0.6, w: 220, h: 300 },
+  { x:  "60vw", y: "-50vh", rotateX: -35, rotateY:  40, rotateZ:  22, scale: 0.5, w: 180, h: 240 },
+  { x: "-70vw", y:  "40vh", rotateX:  30, rotateY:  25, rotateZ: -12, scale: 0.7, w: 200, h: 260 },
+  { x:  "70vw", y:  "50vh", rotateX: -40, rotateY: -20, rotateZ:  15, scale: 0.55,w: 240, h: 320 },
+  { x:  "10vw", y: "-75vh", rotateX:  55, rotateY:  10, rotateZ: -25, scale: 0.45,w: 160, h: 210 },
+  { x: "-20vw", y:  "70vh", rotateX: -25, rotateY: -35, rotateZ:  20, scale: 0.65,w: 210, h: 280 },
+  { x:  "40vw", y:  "20vh", rotateX:  20, rotateY:  50, rotateZ: -8,  scale: 0.5, w: 190, h: 250 },
+  { x: "-50vw", y: "-20vh", rotateX: -15, rotateY: -45, rotateZ:  30, scale: 0.6, w: 225, h: 295 },
 ];
 
 export const PODCAST_MEDIA = [

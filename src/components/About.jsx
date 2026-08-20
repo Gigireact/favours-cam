@@ -17,32 +17,24 @@ export default function About() {
           <span className="font-mono text-xs tracking-widest text-lime">SCENE 03</span>
 
           <p className="mt-6 font-serif italic text-2xl sm:text-3xl lg:text-4xl leading-snug text-bone max-w-2xl">
-            "I don't think of a camera and an edit timeline as different
-            tools — they're the same instrument, used at different points in
-            the story."
+            "For me, every project starts with a story, whether I'm behind the camera, in the edit, or building a world that doesn't exist yet."
           </p>
 
           <div className="mt-10 max-w-xl space-y-5 text-bone-dim leading-relaxed">
             <p>
-              {NAME} is a filmmaker, editor and colourist working across
-              commercial production, documentary and social video. Over the
-              last eight years the work has moved from single-camera event
-              coverage to full campaign delivery — shooting, cutting and
-              grading under one roof.
+              {NAME} is a filmmaker, video editor and visual storyteller creating work across commercials, event coverage, documentaries, product launches and social content. From covering moments on the ground at Solana events to shaping campaigns, product ads and long-form content, the focus is always on creating visuals that connect and leave an impression.
             </p>
             <p>
-              The most recent chapter folds AI-generated imagery into that
-              same process: not as a replacement for a camera, but as another
-              plate to grade, cut and place inside a real timeline.
+              The process extends beyond the camera into storytelling, editing and colour, with AI-generated visuals now becoming another creative tool in the workflow. Not as a replacement for real-world filmmaking, but as another way to imagine, build and bring a story to life.
             </p>
           </div>
 
           <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-8 max-w-xl">
             {[
-              ["8+", "Years shooting & cutting"],
-              ["120+", "Projects delivered"],
-              ["30+", "Brands & studios"],
-              ["4", "Festival selections"],
+              ["2+", "Years shooting & cutting"],
+              ["30+", "Projects delivered"],
+              ["15+", "Brands & studios"],
+              // ["4", "Festival selections"],
             ].map(([n, label]) => (
               <div key={label}>
                 <div className="font-display text-3xl sm:text-4xl text-lime">{n}</div>

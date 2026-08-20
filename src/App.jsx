@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Lenis from "lenis";
 
 import Navbar from "./components/Navbar";
@@ -11,9 +11,12 @@ import Clients from "./components/Clients";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FilmStrip from "./components/FilmStrip";
+import SplashIntro from "./components/SplashIntro";
 
 
 export default function App() {
+
+  const [splashDone, setSplashDone] = useState(false);
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.5,
@@ -39,6 +42,13 @@ export default function App() {
 
   return (
     <div className="relative">
+      {!splashDone && (
+        <SplashIntro
+          onComplete={() => setSplashDone(true)}
+          name="Your Name"
+          role="Filmmaker · Editor · Visual Storyteller"
+        />
+      )}
       <div className="grain" />
 
       <div className="flex">
