@@ -169,6 +169,7 @@ export const PODCAST_MEDIA = [
     // label: "PODCAST REEL",
     title: "The Conversation",
     alt: "Podcast video coverage",
+    link: "https://x.com/Imabasi___/status/1991085214517379079?s=20",
   },
   {
     id: "podcast-02",
@@ -185,6 +186,8 @@ export const PODCAST_MEDIA = [
     // label: "VIDEO COVERAGE",
     title: "In Motion",
     alt: "Podcast video clip",
+    link: "https://x.com/username/status/XXXXXXXX",
+
   },
   {
     id: "podcast-04",

@@ -64,13 +64,25 @@ return (
       )} </div>
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-ink via-ink/50 to-transparent">
-        <span className="font-mono text-[10px] tracking-widest text-lime">
-          {item.label}
-        </span>
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <h3 className="font-display uppercase text-xl sm:text-2xl">
+              {item.title}
+            </h3>
+          </div>
 
-        <h3 className="mt-1 font-display uppercase text-xl sm:text-2xl">
-          {item.title}
-        </h3>
+          {item.link && (
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="pointer-events-auto shrink-0 font-mono text-[12px] tracking-widest text-lime border border-lime/40 px-3 py-2 transition-all duration-300 hover:bg-lime hover:text-ink mb-12"
+            >
+              VIEW ON X →
+            </a>
+          )}
+        </div>
       </div>
 
       {item.type === "video" && (
