@@ -43,8 +43,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-6 max-w-md font-serif italic text-lg sm:text-xl text-bone-dim">
-          Crafting commercials, documentaries and AI-driven video
-          across every stage of the reel.
+          Cinematic visuals for brands, events, stories and everything in between.
         </p>
       </div>
 

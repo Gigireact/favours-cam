@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="relative bg-ink border-t border-line px-5 sm:px-10 lg:px-14 py-28 sm:py-36 flex flex-col items-start"
     >
-      <span className="font-mono text-xs tracking-widest text-lime">SCENE 05 · FINAL</span>
+      <span className="font-mono text-xs tracking-widest text-lime">SCENE 05</span>
 
       <h2 className="mt-6 font-display uppercase leading-[0.92] text-[13vw] sm:text-7xl lg:text-8xl">
         Let's make

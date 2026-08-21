@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <footer className="relative bg-ink border-t border-line px-5 sm:px-10 lg:px-14 py-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
       <div className="font-mono text-[11px] tracking-widest text-bone-dim/70">
-        © {year} {NAME.toUpperCase()} — END OF REEL
+        © {year} {NAME.toUpperCase()} 
       </div>
 
-      <ul className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-[11px] tracking-widest">
+      <ul className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-[18px] tracking-widest">
         {SOCIAL_LINKS.map((s) => (
           <li key={s.label}>
             <a

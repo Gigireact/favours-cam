@@ -45,9 +45,9 @@ export default function Capabilities() {
             >
               {/* Always visible content */}
               <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-8">
-                <span className="font-mono text-xs tracking-widest text-lime w-14 shrink-0">
+                {/* <span className="font-mono text-xs tracking-widest text-lime w-14 shrink-0">
                   {c.tag}
-                </span>
+                </span> */}
 
                 <h3 className="font-display uppercase text-2xl sm:text-3xl lg:text-4xl leading-none">
                   {c.title}

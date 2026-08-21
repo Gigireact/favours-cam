@@ -19,7 +19,7 @@ import pic9 from "../assets/images/pic9.jfif";
 import podcast from "../assets/videos/Podcast-video.mp4"
 
 
-export const NAME = "favour's cam";
+export const NAME = "Favour's cam";
 
 export const SOCIAL_LINKS = [
   { label: "Instagram", href: "https://www.instagram.com/favours_cam?igsh=MTJmaXNvMTV0b21pMA==" },
@@ -28,7 +28,7 @@ export const SOCIAL_LINKS = [
   { label: "X", href: "https://x.com/Imabasi___" },
 ];
 
-export const EMAIL = "favourudofiah@gmail.com";
+export const EMAIL = "udofiahfavour@gmail.com";
 
 export const IMAGES = {
   hero: portp,
@@ -99,42 +99,43 @@ function IMAGES_KEY(key) {
 
 export const CAPABILITIES = [
   {
-    tag: "1",
-    title: "Directing & Concept",
-    desc: "Treatment decks, shot lists and creative direction from a one-line brief to a locked script.",
-    tools: "Treatments · Shot Lists · Storyboards",
+    tag: "01",
+    title: "Video Production",
+    desc: "Creating visually engaging videos from the first idea through to the final frame.",
+    tools: "Creative Direction · Shot Planning · Production",
   },
   {
-    tag: "2",
-    title: "Cinematography",
-    desc: "Handheld, gimbal and locked-off work across commercial, documentary and event coverage.",
-    tools: "RED · Sony Cinema Line · Prime Lenses",
+    tag: "02",
+    title: "Event Coverage",
+    desc: "Capturing the energy, people and key moments that make an event worth remembering.",
+    tools: "Event Films · Highlights · Recaps",
   },
   {
-    tag: "3",
-    title: "Editing",
-    desc: "Narrative-first cutting for brand films, docs and social — pace built around the story, not the deadline.",
-    tools: "Premiere Pro · Avid · Frame.io",
+    tag: "03",
+    title: "Interviews & Podcasts",
+    desc: "Producing and capturing conversations, interviews and podcast content with a focus on clear visuals and engaging storytelling.",
+    tools: "Interviews · Podcasts · Conversation Content",
   },
   {
-    tag: "4",
+    tag: "04",
+    title: "Video Editing",
+    desc: "Shaping raw footage into clear, engaging stories with strong pacing and purpose.",
+    tools: "Storytelling · Pacing · Social Content",
+  },
+  {
+    tag: "05",
     title: "Colour Grading",
-    desc: "Look development and finishing that holds up across a whole campaign, not just one hero frame.",
-    tools: "DaVinci Resolve · LUT Design",
+    desc: "Refining colour and mood to give every project a polished, cinematic final look.",
+    tools: "Look Development · Colour Correction · Finishing",
   },
   {
-    tag: "5",
-    title: "AI Video & Generation",
-    desc: "AI-generated plates and assets integrated into live-action timelines — used as a tool, not a shortcut.",
-    tools: "Runway · Midjourney · Compositing",
-  },
-  {
-    tag: "6",
-    title: "Social & Content Systems",
-    desc: "Cut-downs and native-format edits built for how each platform is actually watched.",
-    tools: "Vertical Edits · Captioning · Reels",
+    tag: "06",
+    title: "Visual Storytelling",
+    desc: "Using thoughtful visuals, movement and editing to turn moments and ideas into stories.",
+    tools: "Creative Visuals · Narrative · Branded Content",
   },
 ];
+
 
 
 export const SPLASH_IMAGES = [
@@ -165,7 +166,7 @@ export const PODCAST_MEDIA = [
     id: "podcast-01",
     type: "video",
     src: podcast,
-    label: "PODCAST REEL",
+    // label: "PODCAST REEL",
     title: "The Conversation",
     alt: "Podcast video coverage",
   },
