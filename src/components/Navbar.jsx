@@ -66,15 +66,14 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <ul className="md:hidden flex flex-col gap-6 px-6 pb-8 pt-2 font-mono text-sm tracking-widest bg-ink border-b border-line">
-          {LINKS.map((l, i) => (
+        <ul className="md:hidden flex flex-col items-center justify-center gap-6 px-6 pb-8 pt-6 font-mono text-sm tracking-widest bg-ink border-b border-line text-center">
+          {LINKS.map((l) => (
             <li key={l.href}>
               <a
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="text-bone-dim hover:text-bone"
+                className="text-bone-dim hover:text-lime transition-colors"
               >
-                <span className="text-lime mr-2">{String(i + 1).padStart(2, "0")}</span>
                 {l.label.toUpperCase()}
               </a>
             </li>

@@ -101,8 +101,7 @@ export default function Process() {
           </div>
 
           <p className="max-w-md font-serif italic text-bone-dim text-lg leading-relaxed">
-            A look behind the conversations — from camera coverage and
-            production moments to the final visual edit.
+            Leading conversations, asking the questions and bringing real stories to life through the lens.
           </p>
           </div>
 
