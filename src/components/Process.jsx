@@ -65,6 +65,9 @@ return (
 
       <div className="pointer-events-none absolute inset-x-0 bottom-0 p-5 bg-gradient-to-t from-ink via-ink/50 to-transparent">
         <div className="flex items-end justify-between gap-4">
+          {/* <span className="font-mono text-[10px] tracking-widest text-lime">
+            {item.label}
+          </span> */}
           <div>
             <h3 className="font-display uppercase text-xl sm:text-2xl">
               {item.title}
@@ -108,7 +111,7 @@ export default function Process() {
             SCENE 05 </span>
 
             <h2 className="mt-3 font-display uppercase text-[11vw] sm:text-6xl lg:text-7xl leading-none">
-              Podcast Zone
+              Conversations
             </h2>
           </div>
 

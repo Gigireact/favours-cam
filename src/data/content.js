@@ -167,17 +167,15 @@ export const PODCAST_MEDIA = [
     type: "video",
     src: podcast,
     // label: "PODCAST REEL",
-    title: "The Conversation",
-    alt: "Podcast video coverage",
+    title: "The Podcast Zone",
     link: "https://x.com/Imabasi___/status/1991085214517379079?s=20",
   },
   {
     id: "podcast-02",
     type: "image",
     src: portp5,
-    // label: "BEHIND THE SCENES",
+    label: "BEHIND THE SCENES",
     title: "On Set",
-    alt: "Podcast production behind the scenes",
   },
   {
     id: "podcast-03",
@@ -185,7 +183,6 @@ export const PODCAST_MEDIA = [
     src: portp7,
     // label: "VIDEO COVERAGE",
     title: "In Motion",
-    alt: "Podcast video clip",
     link: "https://x.com/username/status/XXXXXXXX",
 
   },
@@ -194,16 +191,14 @@ export const PODCAST_MEDIA = [
     type: "image",
     src: portp9,
     // label: "CAMERA SETUP",
-    title: "The Setup",
-    alt: "Podcast camera setup",
+    title: "Behind the mic",
   },
   {
     id: "podcast-05",
     type: "image",
     src: portp4,
     // label: "PRODUCTION",
-    title: "Behind The Camera",
-    alt: "Podcast production",
+    title: "Dialogues",
   },
 ];
 
